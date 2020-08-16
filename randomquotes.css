@@ -1,0 +1,691 @@
+body{
+    padding-top:5%;
+    margin: 0;
+    overflow-x: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#initial{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(49, 48, 48);
+    margin-top: 5%;
+}
+
+.colorchanges{
+    color:white;
+    transition: 0.9s ease-in;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    height:300px;
+    margin-top: 3%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+   
+    justify-content: center;
+    align-items: center;
+  
+    }
+
+   
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 11%;
+      font-size: 95%;
+    }
+
+    
+
+    .container-wrap{
+        width:40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+
+
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+
+
+
+    /*media queries*/
+    /*for mobile phones*/
+
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 379px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+        }
+        body{
+            padding:0;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+   
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+    }
+
+    }
+
+    @media only screen 
+    and (min-device-width: 380px) 
+    and (max-device-width: 430px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+        }
+        body{
+            padding:0;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+    }
+
+
+    }
+
+    @media only screen 
+    and (device-width: 375px) 
+     {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+        }
+        body{
+            padding:0;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+    
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 19%;
+      margin-top: 25%;
+      font-size: 85%;
+    }
+    }
+
+    @media only screen 
+    and (device-width: 414px) 
+     {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+  
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+    }
+    }
+
+    @media only screen 
+    and (min-device-width: 431px) 
+    and (max-device-width: 481px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+   
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+    }
+
+
+    }
+
+
+    @media only screen 
+    and (min-device-width: 481px) 
+    and (max-device-width: 540px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+            font-size: 150%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+    }
+
+
+    }
+
+
+    @media only screen 
+    and (min-device-width: 541px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+            font-size: 180%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+          .container-wrap{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+  
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+    }
+
+
+    }
+
+
+    @media only screen 
+    and (min-device-width: 641px) 
+    and (max-device-width: 940px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 3%;
+            font-size: 220%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+        
+        }
+
+          .container-wrap{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 85%;
+      margin-top: 12%;
+    }
+
+
+    }
+
+    @media only screen 
+    and (device-width: 768px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #head{
+            margin-top: 10%;
+            margin-bottom: 3%;
+            font-size: 220%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+        
+        }
+
+          .container-wrap{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 15%;
+      font-size: 95%;
+      margin-top: 32%;
+     
+    }
+
+
+    }
+
+    @media screen and (min-width: 696px) and (max-width:971px){
+        #head{
+            margin-top: 10%;
+            margin-bottom: 7%;
+            font-size: 220%;
+        }
+        body{
+            padding-bottom:5%;
+            margin: 0;
+            overflow-x: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+        
+        }
+
+          .container-wrap{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:5%;
+        background-color: #fff;
+        border-radius: 50px;
+      
+    }
+
+    
+  
+
+    .quotemark{
+        font-size: 150%;
+        color:grey;
+        margin-bottom: 11%;
+        transition:ease-in 1s;
+    }
+
+
+    .thequote{
+        color:grey;
+        transition: ease-in 0.9s;
+        border-left:5px solid grey;
+        padding-left: 8%;
+      padding-top: 9%;
+      font-size: 95%;
+      margin-top: 12%;
+     
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width:695px){
+    #head{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: 220%;
+    }
+    body{
+        padding-bottom:5%;
+        margin: 0;
+        overflow-x: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    
+    }
+
+      .container-wrap{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5%;
+    background-color: #fff;
+    border-radius: 50px;
+  
+}
+
+
+.quotemark{
+    font-size: 150%;
+    color:grey;
+    position: absolute;
+    top:25%;
+    left:47%;
+    transition:ease-in 1s;
+    margin-bottom: 10%;
+}
+
+.thequote{
+    color:grey;
+    transition: ease-in 0.9s;
+    border-left:5px solid grey;
+    padding-left: 8%;
+  padding-top: 9%;
+  font-size: 95%;
+  margin-top: 12%;
+ 
+}
+}
